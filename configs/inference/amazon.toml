@@ -1,0 +1,17 @@
+[dataset]
+name = 'amazon'
+
+[model]
+name = 'GiffCF'
+ckpt_path = 'checkpoints/amazon.keras'
+
+top_k = [10, 20]
+test_batch_size = 500
+
+embed_dim = 200
+
+T = 3
+alpha = 1.5
+ideal_weight = 0.0
+noise_scale = 0.0
+noise_decay = 1.0
