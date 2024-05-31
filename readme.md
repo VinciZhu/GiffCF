@@ -4,7 +4,7 @@ This is our TensorFlow implementation for the paper:
 
 > Yunqin Zhu, Chao Wang, Qi Zhang, and Hui Xiong. 2024. Graph Signal Diffusion Model for Collaborative Filtering. In SIGIR ’24, July 14–18, 2024, Washington, DC, USA. ACM, New York, NY, USA, 11 pages.
 
-See the arXiv version at https://arxiv.org/abs/2311.08744. If you have any questions, please feel free to contact Yunqin Zhu (haaasined at gmail dot com).
+See the arXiv version at https://arxiv.org/abs/2311.08744. If you have any questions, please feel free to contact Yunqin Zhu (haaasined at gmail dot com) or create an issue.
 
 ## Introduction
 

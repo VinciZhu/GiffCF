@@ -36,7 +36,7 @@ def train(cfg):
         x_train, x_val, x_test, **vars(cfg.model)
     )
     # Remove previous checkpoint
-    if hasattr(cfg.dataset, 'output_dir'):
+    if hasattr(cfg, 'output_dir'):
         shutil.rmtree(os.path.join(cfg.output_dir, cfg.name), ignore_errors=True)
     # Create model
     if not hasattr(cfg.model, 'cache_path'):
